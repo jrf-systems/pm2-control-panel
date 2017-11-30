@@ -1,0 +1,33 @@
+extends layout.pug
+
+block content
+  div(ng-controller="indexController")
+    h1.uk-text-primary.uk-h1.uk-margin.uk-margin-small-bottom PM2 Control Panel
+    button(uk-toggle="target: #startmodal")#startapp.uk-button.uk-text-primary Start App
+    br
+    table#appsTable.uk-table.uk-table-striped
+      thead
+        tr
+          th.uk-text-primary Name
+          th.uk-text-primary Status
+          th.uk-text-primary PID
+          th.uk-text-primary Memory
+          th.uk-text-primary CPU
+          th.uk-text-primary Actions
+      tbody#appsBody
+      
+    div#loader-wrapper
+      div#loader
+      div.loader-section.section-left
+      div.loader-section.section-right
+    div(uk-modal)#startmodal
+      div.uk-modal-dialog.uk-modal-body
+        h3.uk-modal-title Start App
+        input(type="text", placeholder="App name...")#newappname.uk-input
+        input(type="text", placeholder="Path to file...")#newfilepath.uk-input
+        p.uk-text-right
+          button.uk-button.uk-button-default.uk-modal-close Cancel
+          button.uk-button.uk-button-primary#initapp Add
+
+
+    
