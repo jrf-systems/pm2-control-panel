@@ -18,3 +18,6 @@ Run the app:
 And finally, go to http://localhost:8282/ in your web browser.
 
 I would recommend only running this within a local network, as to prevent the entire internet from having the ability to manage your PM2 instances.
+
+Screenshot:
+![alt text](https://www.jesserussell.net/wp-content/uploads/2017/11/pm2.png "PM2 Control Panel")
