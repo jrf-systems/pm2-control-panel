@@ -20,4 +20,4 @@ And finally, go to http://localhost:8282/ in your web browser.
 I would recommend only running this within a local network, as to prevent the entire internet from having the ability to manage your PM2 instances.
 
 Screenshot:
-![alt text](https://www.jesserussell.net/wp-content/uploads/2017/11/pm2.png "PM2 Control Panel")
+![M2 Control Panel screenshot](https://raw.githubusercontent.com/RussellWebSystems/pm2-control-panel/master/images/pm2cp.jpg "PM2 Control Panel")
