@@ -1,6 +1,6 @@
 ## PM2 Control Panel for Node.js
-![PM2 Control Panel screenshot 1](https://raw.githubusercontent.com/RussellWebSystems/pm2-control-panel/master/images/addpm2app.jpg "PM2 Control Panel overview")
-![PM2 Control Panel screenshot 2](https://raw.githubusercontent.com/RussellWebSystems/pm2-control-panel/master/images/pm2controlpanel.jpg "Starting a PM2 process")
+![PM2 Control Panel screenshot 1](https://raw.githubusercontent.com/RussellWebSystems/pm2-control-panel/master/images/pm2controlpanel.jpg "PM2 Control Panel overview")
+![PM2 Control Panel screenshot 2](https://raw.githubusercontent.com/RussellWebSystems/pm2-control-panel/master/images/addpm2app.jpg "Starting a PM2 process")
 
 This is a simple web-based tool that allows you to manage pm2 instances.  You can start apps, view running apps, restart an app, stop an app, or delete an app.
 
