@@ -1,4 +1,6 @@
 ## PM2 Control Panel for Node.js
+![PM2 Control Panel screenshot](https://raw.githubusercontent.com/RussellWebSystems/pm2-control-panel/master/images/pm2cp.jpg "PM2 Control Panel")
+
 This is a simple web-based tool that allows you to manage pm2 instances.  You can start apps, view running apps, restart an app, stop an app, or delete an app.
 
 To run this this project, you must have Node.js installed, along with npm, the Node.js package manager.
@@ -18,6 +20,3 @@ Run the app:
 And finally, go to http://localhost:8282/ in your web browser.
 
 I would recommend only running this within a local network, as to prevent the entire internet from having the ability to manage your PM2 instances.
-
-Screenshot:
-![M2 Control Panel screenshot](https://raw.githubusercontent.com/RussellWebSystems/pm2-control-panel/master/images/pm2cp.jpg "PM2 Control Panel")
