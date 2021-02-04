@@ -3,7 +3,7 @@ extends layout.pug
 block content
   div(ng-controller="indexController")
     h1.uk-text-primary.uk-h1.uk-margin.uk-margin-small-bottom PM2 Control Panel
-    button(uk-toggle="target: #startmodal")#startapp.uk-button.uk-text-primary Start App
+    button(uk-toggle="target: #startmodal")#startapp.uk-button.uk-text-primary Start Process
     br
     table#appsTable.uk-table.uk-table-striped
       thead
@@ -22,7 +22,7 @@ block content
       div.loader-section.section-right
     div(uk-modal)#startmodal
       div.uk-modal-dialog.uk-modal-body
-        h3.uk-modal-title Start App
+        h3.uk-modal-title Start
         input(type="text", placeholder="App name...")#newappname.uk-input
         input(type="text", placeholder="Path to file...")#newfilepath.uk-input
         p.uk-text-right
