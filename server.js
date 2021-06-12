@@ -25,7 +25,7 @@ app.use(express.static(__dirname + '/public'));
 
 // Set pug as view engine
 app.set('view engine', 'pug');
-//app.set('views', __dirname + '/public/views');
+app.set('views', __dirname + '/views');
 
 // Routes
 require('./app/routes')(app);
